@@ -29,7 +29,6 @@
 #second()
 
 def wraper(f):
-    import ipdb; ipdb.set_trace() ### XXX BREAKPOINT
     'print wrapper...start'
     f()
     'print wrapper...end'
